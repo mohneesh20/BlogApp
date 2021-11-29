@@ -1,0 +1,14 @@
+{
+  "name": "jsonServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "ngrok": "^4.0.1"
+  },
+  "scripts": {
+    "db": "json-server -wq db.json",
+    "tunnel": "ngrok http 3000"
+  }
+}
